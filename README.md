@@ -61,7 +61,7 @@ dmap_config = {
   'file_name': file_name,             # 이미지 파일 이름
   'reference_view_id': reference_view_id, # 참조 뷰의 ID
   'neighbor_view_ids': neighbor_view_ids, # 이웃 뷰 ID의 리스트
-  'K': K,                             # 카메라 내부 매트릭스
+  'K': K,                             # 카메라 내부 매트릭스/2
   'R': R,                             # 카메라 회전 매트릭스
   'C': C                              # 카메라 이동 벡터
 }
